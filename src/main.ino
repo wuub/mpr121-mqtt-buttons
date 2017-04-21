@@ -1,12 +1,7 @@
 #include <ESP8266WiFi.h>
 #include <WiFiManager.h>
-#include <ESP8266WiFi.h>
 #include <PubSubClient.h>
-
-#include <Button.h>
-#include <ButtonEventCallback.h>
 #include <Adafruit_MPR121.h>
-#include <Wire.h>
 
 const int PIN_TOUCH_IRQ = 4;
 uint16_t lasttouched = 0;
